@@ -1,0 +1,30 @@
+.Blue20px{
+    font-size: 20px;
+    color: blue;
+}
+
+.Red20px{
+    font-size: 20px;
+    color: red;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+.exo3 {
+    display: flex;
+}
+
+.exo3 > span{
+    padding: 10px;
+    color: red;
+}
+
+table {
+    color: blue;
+}
+table:first-child , table:last-child {
+    color: green;
+    font-size: 15px;
+}

@@ -1,0 +1,27 @@
+.paire {
+    background-color: blue;
+}
+
+.impaire {
+    background-color: red;
+}
+
+.textred {
+    color: red;
+}
+
+.textpurple {
+    color: purple;
+}
+
+.borderedTable * {
+    border: 1px solid black;
+}
+
+.display {
+    display: initial;
+}
+
+.hidden {
+    display: none;
+}

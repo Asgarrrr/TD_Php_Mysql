@@ -1,0 +1,17 @@
+.Object {
+    border: 1px solid #e2d5e6;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+.Object th {
+    border: 1px solid black;
+    padding: 5px;
+    background: #e2d5e6;
+}
+
+.Object td {
+    border: 1px solid black;
+    padding: 5px;
+    background: #e2d5e6;
+}

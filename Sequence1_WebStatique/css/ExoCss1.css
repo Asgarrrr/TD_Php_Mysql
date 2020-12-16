@@ -1,0 +1,63 @@
+body{
+    margin: 0px;
+    height: 100vh;
+    background-color: yellow;
+}
+
+nav {
+    background-color: cyan;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+
+.centered {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+
+.redBlock {
+    height: 150px;
+    width: 150px;
+    float: right;
+    background-color: red;
+  }
+
+section {
+    height: calc(100% - 200px);
+    width: 100%;
+    display: flex;
+    text-align: center;
+}
+
+section > .sidebar {
+    height: 100%;
+    background-color: red;
+    width: 200px;
+}
+
+section > .sidebar > div:first-child {
+    height: 50%;
+    background-color: greenyellow ;
+
+}
+
+section > .sidebar > div:last-child {
+    height: 50%;
+    background-color: mediumpurple ;
+}
+
+
+section > .content {
+    background-color: yellow;
+    height: 100%;
+    width: 100%;
+}
+
+footer {
+    background-color: rgb(47, 255, 151);
+    width: 100%;
+    height: 100px;
+}
