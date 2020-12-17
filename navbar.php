@@ -179,7 +179,7 @@
 
 <script type="text/javascript">
 
-    const origine = "BTSSN1_WebArchitecture-main",
+    const origine = "BTSSN1_WebArchitecture",
           current = window.location.href.split("/");
 
     const now = current.splice(
