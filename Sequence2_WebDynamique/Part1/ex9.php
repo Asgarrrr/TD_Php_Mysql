@@ -4,10 +4,12 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Exercice 8 Vider les Variables de session</title>
-        <link rel="stylesheet" href="CSS/style.css">
-    </head>
-    <body>
-        <a href="../../index.php">Retour</a>
+        <link rel="stylesheet" href="../../CSS/style.css">
+<link rel="stylesheet" href="CSS/style.css">
+
+        <body>
+        <?php include "../../navbar.php" ?>
+
         <h1>Exercice Final.</h1>
         <p>Créer une appli web avec un bouton de connexion qui demande un login et un mot de
             pass. Comparer la valeur saisie avec le mdp et le login qui sera dans le code « Julien »
@@ -20,7 +22,7 @@
             Puis affichez un bouton de déconnexion. Faites en sorte qu’une fois connecté l’utilisateur
             le reste lorsque on actualise la page.
             Lorsque l’on clique sur le bouton de déconnexion la session doit être détruite.</p>
-       
+
         <h2>Resultat</h2>
 
         <?php session_start();
@@ -34,7 +36,7 @@
                 }
             } else {
 
-                ?>        
+                ?>
                     <form action="" method="post">
                         <p>
                             <label for="user">Nom d'utilisateur</label>
@@ -46,8 +48,8 @@
                         </p>
                         <button type="submit" name="login">login</button>
                     </form>
-                <?php 
-                
+                <?php
+
                 if (isset($_POST["login"]) ) {
                     if (isset($_POST["user"]) && $_POST["user"] == "Julien") {
                         if (isset($_POST["password"]) && $_POST["password"] == "1234") {
@@ -70,8 +72,3 @@
 
     </body>
 </html>
-
-
-
-
-

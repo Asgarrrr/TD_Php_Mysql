@@ -5,18 +5,16 @@
     <head>
 
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="./css/exo2.css">
         <title>Exemple 2</title>
-
+        <link rel="stylesheet" href="../CSS/style.css">
+        <link rel="stylesheet" href="css/exo2.css">
     </head>
 
     <body>
 
-        <?php
-        include "../navbar.php"
-    ?>
+        <?php include "../navbar.php" ?>
 
-        <a href="./exo4.html">Retour</a>
+    <div class="container pt-4">
 
         <h2>Exercice 2: (1h30min)</h2>
         <span>Chercher sur google les balises suivante :</span>
@@ -38,6 +36,8 @@
         <h4>Titre 4</h4>
         <h5>Titre 5</h5>
         <h6>Titre 6</h6>
+
+    </div>
 
     </body>
 </html>
