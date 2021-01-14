@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-dark">
     <div class="container">
-        <a class="navbar-brand" >Jérémy Caruelle</a>
+        <a class="navbar-brand">Jérémy Caruelle</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -11,7 +11,7 @@
             <ul class="navbar-nav ml-auto">
 
                 <li class="nav-item active">
-                    <a class="nav-link" >Accueil</a>
+                    <a class="nav-link" data-href="/">Accueil</a>
                 </li>
 
                 <li class="nav-item dropdown">
@@ -25,18 +25,18 @@
                         <h6 class="dropdown-header">HTML</h6>
 
                         <a class="dropdown-item" data-href="Sequence1_WebStatique/exo1.php">Exercice 1</a>
-                        <a class="dropdown-item" data-href="Sequence1_WebStatique/exo2.html">Exercice 2</a>
-                        <a class="dropdown-item" data-href="Sequence1_WebStatique/exo3.html">Exercice 3</a>
-                        <a class="dropdown-item" data-href="Sequence1_WebStatique/exo4.html">Exercice 4</a>
+                        <a class="dropdown-item" data-href="Sequence1_WebStatique/exo2.php">Exercice 2</a>
+                        <a class="dropdown-item" data-href="Sequence1_WebStatique/exo3.php">Exercice 3</a>
+                        <a class="dropdown-item" data-href="Sequence1_WebStatique/exo4.php">Exercice 4</a>
                         <a class="dropdown-item">Exercice 5 (Voir CSS)</a>
-                        <a class="dropdown-item" data-href="Sequence1_WebStatique/exo6.html">Exercice 6</a>
+                        <a class="dropdown-item" data-href="Sequence1_WebStatique/exo6.php">Exercice 6</a>
 
                         <h6 class="dropdown-header">CSS</h6>
-                        <a class="dropdown-item" data-href="Sequence1_WebStatique/exoCss1-1.html">Exercice 1.0</a>
-                        <a class="dropdown-item" data-href="Sequence1_WebStatique/exoCss1-2.html">Exercice 1.1</a>
-                        <a class="dropdown-item" data-href="Sequence1_WebStatique/exoCss1-3.html">Exercice 1.2</a>
-                        <a class="dropdown-item" data-href="Sequence1_WebStatique/exoCss1-4.html">Exercice 1.3</a>
-                        <a class="dropdown-item" data-href="Sequence1_WebStatique/exoCssa1.html">Exercice a,b,c</a>
+                        <a class="dropdown-item" data-href="Sequence1_WebStatique/exoCss1-1.php">Exercice 1.1</a>
+                        <a class="dropdown-item" data-href="Sequence1_WebStatique/exoCss1-2.php">Exercice 1.2</a>
+                        <a class="dropdown-item" data-href="Sequence1_WebStatique/exoCss1-3.php">Exercice 1.3</a>
+                        <a class="dropdown-item" data-href="Sequence1_WebStatique/exoCss1-4.php">Exercice 1.4</a>
+                        <a class="dropdown-item" data-href="Sequence1_WebStatique/exoCss1a.php">Exercice a,b,c</a>
 
                     </div>
                 </li>
@@ -137,8 +137,6 @@
                         <li>
                             <a class="dropdown-item dropdown-toggle" > TD 2</a>
                             <ul class="submenu dropdown-menu dropright">
-                                <h6 class="dropdown-header">Fonctions</h6>
-                                <div class="dropdown-divider"></div>
                                 <li><a class="dropdown-item" data-href="Sequence3_BasesDeDonnees/TD2/BDD_TD2_Exo1.php">Ex.1 </a></li>
                                 <li><a class="dropdown-item" data-href="Sequence3_BasesDeDonnees/TD2/BDD_TD2_Exo2.php">Ex.2 </a></li>
                                 <li><a class="dropdown-item" data-href="Sequence3_BasesDeDonnees/TD2/BDD_TD2_Exo3.php">Ex.3</a></li>
@@ -147,8 +145,6 @@
                         <li>
                             <a class="dropdown-item dropdown-toggle"> TD 3</a>
                             <ul class="submenu dropdown-menu dropright">
-                                <h6 class="dropdown-header">Object</h6>
-                                <div class="dropdown-divider"></div>
                                 <li><a class="dropdown-item" data-href="Sequence3_BasesDeDonnees/TD3/SQL_TD3_Exo2.php">Ex.2</a></li>
                                 </li>
                             </ul>
@@ -156,8 +152,6 @@
                         <li>
                             <a class="dropdown-item dropdown-toggle"> TD 4</a>
                             <ul class="submenu dropdown-menu dropright">
-                                <h6 class="dropdown-header">Object</h6>
-                                <div class="dropdown-divider"></div>
                                 <li><a class="dropdown-item" data-href="Sequence3_BasesDeDonnees/TD4/SQL_TD4_Exo1.php">Ex.1</a></li>
                                 <li><a class="dropdown-item" data-href="Sequence3_BasesDeDonnees/TD4/SQL_TD4_Exo2.php">Ex.2</a></li>
                                 <li><a class="dropdown-item" data-href="Sequence3_BasesDeDonnees/TD4/SQL_TD4_Exo3.php">Ex.3</a></li>
@@ -179,7 +173,7 @@
 
 <script type="text/javascript">
 
-    const origine = "BTSSN1_WebArchitecture",
+    const origine = "TD_Php_Mysql",
           current = window.location.href.split("/");
 
     const now = current.splice(

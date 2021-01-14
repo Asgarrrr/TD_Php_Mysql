@@ -4,10 +4,12 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Exercice 7 Les Variables de session</title>
-        <link rel="stylesheet" href="CSS/style.css">
-    </head>
-    <body>
-        <a href="../../index.php">Retour</a>
+        <link rel="stylesheet" href="../../CSS/style.css">
+<link rel="stylesheet" href="CSS/style.css">
+
+        <body>
+        <?php include "../../navbar.php" ?>
+
         <h1>Exercice 7 Les Variables de session</h1>
         <p>Créer un petit formulaire avec une zone de texte et un bouton. Lorsque vous cliquer sur le bouton la page doit afficher ce que vous avez saisie et l’enregistre dans une variable desession $_SESSIONS[]. Le but est que si vous actualisez votre page la variable est mémorisée et le site affiche toujours la valeur saisie.</p>
 
@@ -38,8 +40,3 @@
 
     </body>
 </html>
-
-
-
-
-

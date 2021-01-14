@@ -4,13 +4,15 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Exercice 8 Vider les Variables de session</title>
-        <link rel="stylesheet" href="CSS/style.css">
-    </head>
-    <body>
-        <a href="../../index.php">Retour</a>
+        <link rel="stylesheet" href="../../CSS/style.css">
+<link rel="stylesheet" href="CSS/style.css">
+
+        <body>
+        <?php include "../../navbar.php" ?>
+
         <h1>Exercice 8 Vider les Variables de session</h1>
         <p>Reprenez l’exercice 7 et rajouter un bouton qui permet lorsque l’on clique dessus de vider la session.</p>
-       
+
         <h2>Resultat</h2>
 
         <form action="" method="post">
@@ -32,7 +34,7 @@
                 echo "<p>Votre variable est :".$_SESSION["variable"]."<p>";
             else
                 echo "<p>Vous n'avez pas definie de variable<p>";
-                
+
         ?>
         <h2>Code</h2>
         <pre class="code">
@@ -40,8 +42,3 @@
         </pre>
     </body>
 </html>
-
-
-
-
-

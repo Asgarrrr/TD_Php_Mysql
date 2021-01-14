@@ -4,10 +4,12 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Exercice 5 Les formulaires et la methode POST</title>
+        <link rel="stylesheet" href="../../CSS/style.css">
         <link rel="stylesheet" href="CSS/style.css">
-    </head>
-    <body>
-        <a href="../../index.php">Retour</a>
+
+        <body>
+        <?php include "../../navbar.php" ?>
+
         <h1>Exercice 5 Les formulaires et la methode POST.</h1>
         <p>Créer un petit formulaire avec une zone de text et un bouton. Lorsque vous cliquer sur le bouton la page doit afficher ce que vous avez saisie en rouge. Utilisez $_POST[‘champ1’]</p>
 
@@ -19,11 +21,12 @@
         </form>
 
         <?php
-            if (isset($_POST['text']) {
+
+            if (isset($_POST['text'])) {
                 echo "<span class='textred'>".$_POST['text']."</span>";
             }
         ?>
-        
+
         <h2>Code</h2>
         <pre class="code">
             <?php highlight_file( __FILE__ ); ?>

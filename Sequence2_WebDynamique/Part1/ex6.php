@@ -4,10 +4,12 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Exercice 6 Les formulaires et la methode GET.</title>
-        <link rel="stylesheet" href="CSS/style.css">
-    </head>
-    <body>
-        <a href="../../index.php">Retour</a>
+        <link rel="stylesheet" href="../../CSS/style.css">
+<link rel="stylesheet" href="CSS/style.css">
+
+        <body>
+        <?php include "../../navbar.php" ?>
+
         <h1>Exercice 6 Les formulaires et la methode GET.</h1>
         <p>Créer un petit formulaire avec une zone de texte et un bouton. Lorsque vous cliquer sur le bouton la page doit afficher ce que vous avez saisie en violet Utilisez $_GET [‘champ1’]</p>
 
@@ -30,8 +32,3 @@
         </pre>
     </body>
 </html>
-
-
-
-
-

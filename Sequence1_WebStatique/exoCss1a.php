@@ -4,15 +4,14 @@
 
     <head>
 
-        <meta charset="UTF-8">
+        <meta charset="UTF-8">        <link rel="stylesheet" href="../CSS/style.css">
         <link rel="stylesheet" href="./css/exo1a.css">
         <title>exo1a</title>
 
     </head>
 
     <body>
-
-        <a href="./exo4.html">Retour</a>
+        <?php include "../navbar.php" ?>
 
         <h2>Exercice 1a:</h2>
         <span class="Blue20px">Lorem</span>
