@@ -1,14 +1,19 @@
 <?php
 
     class Personnage {
-        private $player;
+        private $_ID;
+        private $Name;
+        private $HP;
+
 
         public function __construct($dataPlayer) {
-            $this->player = $dataPlayer;
+            $this->_ID = $dataPlayer["_ID"];
+            $this->Name = $dataPlayer["Name"];
+            $this->HP = $dataPlayer["HP"];
         }
 
         public function showData() {
-            echo "<p>Le joueur n°".$this->player['_ID']." ".$this->player['Name']." posséde ".$this->player['HP']." PV !";
+            echo "<p>Le p'tit chien n°".$this->_ID." ".$this->Name." posséde ".$this->HP." PV ! Pas mal du tout. c:";
         }
     } 
 ?>
