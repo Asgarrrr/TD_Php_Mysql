@@ -11,5 +11,11 @@
 
     <body>
         <?php include "navbar.php" ?>
+        <div id="gitTab">
+
+        </div>
+
+        <script src="JS/script.js"></script>
+
     </body>
 </html>

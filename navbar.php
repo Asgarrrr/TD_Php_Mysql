@@ -202,7 +202,7 @@
         $("a[data-href]").click(function(test) {
 
             window.location.assign(
-                current.join("/") +"/"+ test.target.dataset.href
+                current.join("/") +"/BTSSN1_WebArchitecture/"+ test.target.dataset.href
             );
         });
 
