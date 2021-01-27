@@ -115,7 +115,6 @@
                     </ul>
                 </li>
 
-
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle dropright" data-toggle="dropdown"
                         aria-expanded="false">Chapitre 3</a>
@@ -160,16 +159,36 @@
                         </li>
                     </ul>
                 </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="Sequence4_Javascript">Chapitre 4</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Chapitre 5
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <h6 class="dropdown-header">API REST</h6>
+
+                        <a class="dropdown-item" data-href="Sequence5_API_REST/Exercice1/index.html">Exercice 1</a>
+                        <a class="dropdown-item" data-href="Sequence5_API_REST/Exercice2/index.html">Exercice 2</a>
+                        <a class="dropdown-item" data-href="Sequence5_API_REST/Exercice3/index.html">Exercice 3</a>
+                    </div>
+                </li>
+
                 <li class="nav-item">
                     <a class="nav-link" href="https://github.com/Asgarrrr">Github ;3</a>
                 </li>
+
             </ul>
         </div>
     </div>
 </nav>
+
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-
 
 <script type="text/javascript">
 
@@ -200,7 +219,6 @@
         }
 
         $("a[data-href]").click(function(test) {
-
             window.location.assign(
                 current.join("/") +"/BTSSN1_WebArchitecture/"+ test.target.dataset.href
             );
